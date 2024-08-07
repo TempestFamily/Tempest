@@ -1,0 +1,105 @@
+
+body {
+	font-family: Arial, sans-serif;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	background-image: url('backgraund.webp');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: auto;
+}
+
+
+
+
+
+
+
+
+
+.container_panel{
+	display: flex;
+	margin-right: 0px;
+	margin-left: auto;
+}
+.container_menu,
+.drop_menu{
+	display: flex;
+	margin-right: 0px;
+	margin-left: auto;
+	text-align: center;
+}
+.container_menu{
+	position: fixed;
+	right: 10px;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	color: red;
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 18px;
+  }
+.flash,
+label {
+	display: block;
+	color: red;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+.button{
+	margin-top: 5px;
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+	border: 3px solid rgba(0, 0, 0, 0);
+	border-radius: 1px;
+	min-width: 110px;
+	min-height: 30px;
+	border: 0;
+}
+.button:hover{
+	border: 1px solid rgba(255, 0, 0, 0.8);
+}
+
+
+.button::before{
+	left: 100%;
+	min-width: 110vw;
+	min-height: 30vw;
+	position: absolute;
+}
+
+
+.container_menu::before{
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.indentation{
+	margin-top: 100px;
+}
