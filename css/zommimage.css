@@ -1,0 +1,25 @@
+body {
+    background-color: hsl(0, 0%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.image-container {
+    width: 637px;
+    height: 919px;
+    cursor: zoom-in;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.zoom {
+    transform: scale(2); /* Увеличение при клике */
+}
