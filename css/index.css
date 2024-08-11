@@ -36,8 +36,8 @@ h1 {
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
-    transition: color 1s ease;
-    transition: background-color 1s ease;
+    transition: color 0.5s ease;
+    transition: background-color 0.5s ease;
     font-size: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -54,4 +54,7 @@ h1 {
 
 .image-container {
     margin: auto;
+}
+.button-container2{
+    margin-top: 15px;
 }
