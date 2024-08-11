@@ -1,7 +1,7 @@
-const zoomLevel = 10; // Установите здесь нужное значение зума
+//const zoomLevel = 10; // Установите здесь нужное значение зума
     let isZoomed = false; // Переменная для отслеживания состояния зума
 
-    function zoomImage(e) {
+    function zoomImage(e,zoomLevel) {
         const img = document.getElementById('myImage');
 
         if (!isZoomed) {
