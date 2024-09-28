@@ -1,0 +1,25 @@
+
+.mySlides{
+    width: 100%;
+}
+
+
+.slide-button {
+    position: absolute; /* Абсолютное позиционирование кнопок */
+    padding: 10px 20px; /* Поля кнопок */
+    color: white; /* Цвет текста */
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+    border: none; /* Убираем обводку */
+    cursor: pointer; /* Курсор-указатель при наведении */
+}
+.w3-display-left{
+    top: 50%; /* Вертикальное центрирование */
+    left: 25%; /* Отступ справа */
+    transform: translateY(-50%); /* Центрирование по вертикали */
+}
+
+.w3-display-right {
+    top: 50%; /* Вертикальное центрирование */
+    right: 25%; /* Отступ справа */
+    transform: translateY(-50%); /* Центрирование по вертикали */
+}
